@@ -1,0 +1,40 @@
+# ==================== MAAHI Robot Project Requirements ====================
+# Smart Autonomous Robot with Groq AI, Voice Control, Music Player, Motor Control
+# Raspberry Pi 4 with USB Mic, USB Speaker, L298N Motor Driver, HC-SR04 Sensor
+
+# Core AI & Voice Recognition
+groq==0.9.0
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+python-dotenv==1.0.0
+
+# Text-to-Speech & Audio Processing
+gtts==2.3.2
+pyttsx3==2.90
+wave==0.0.2
+
+# Music & Media
+ytmusicapi==4.2.10
+mpv==1.0.5
+yt-dlp==2024.1.1
+
+# GPIO & Hardware
+RPi.GPIO==0.7.0
+board==1.0
+adafruit-circuitpython-busio==5.3.0
+adafruit-circuitpython-digitalio==3.13.0
+
+# Display & Image Processing
+Pillow==10.1.0
+numpy==1.24.3
+pygame==2.3.0
+
+# Web Framework (Optional)
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Utilities
+python-pptx==0.6.23
+requests==2.31.0
+Twisted==24.0.0
+psutil==5.9.6
